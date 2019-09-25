@@ -6,20 +6,21 @@ import { Container, Card, CardBody } from "reactstrap";
 const testimonials = [
   {
     userName: "ashad",
-    appName: "Video Status Splitter",
+    appName: "lorem lorem",
     review:
-      " This is the my place when I need to get mockup for my new app or to publish my new major update which has UI change. If this site has not been exists , Then i have to spend either days to create mockup or money . Thanks Again :)"
+      "     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima magnam expedita impedit dolore perspiciatis consequuntur voluptas eos repellat labore accusamus? Officiis, nisi. Pariatur quo, magni ipsam illum repellendus ut ratione  "
   },
   {
     userName: "ashad",
-    appName: "WhatsApp video splitter",
+    appName: "lorem lorem",
     review:
-      " Super Easy Tool .Without this tool , i spend days to create my mockup but also they do not look that much good and not able to get app install but after that it change my app install."
+      "     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima magnam expedita impedit dolore perspiciatis consequuntur voluptas eos repellat labore accusamus? Officiis, nisi. Pariatur quo, magni ipsam illum repellendus ut ratione  "
   },
   {
     userName: "ashad",
-    appName: "All News App",
-    review: "This is the BEST mockup generator tool available in the market"
+    appName: "lorem lorem",
+    review:
+      "     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima magnam expedita impedit dolore perspiciatis consequuntur voluptas eos repellat labore accusamus? Officiis, nisi. Pariatur quo, magni ipsam illum repellendus ut ratione  "
   }
 ];
 export class Testo extends Component {
