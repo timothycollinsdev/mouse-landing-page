@@ -30,7 +30,7 @@ export class AI extends Component {
               </Row>
             </CardBody>
           </Card>
-          <Button className="button btn-grad m-4" to="/home">
+          <Button className="button btn-grad m-4 tadeRepeat" to="/home">
             Get Free Now
           </Button>
         </div>

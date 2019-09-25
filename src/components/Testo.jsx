@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import LightSpeed from "react-reveal/LightSpeed";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faQuoteLeft, faQuoteRight } from "@fortawesome/free-solid-svg-icons";
 import { Container, Card, CardBody } from "reactstrap";
@@ -25,9 +26,11 @@ export class Testo extends Component {
   render() {
     return (
       <Container fluid className="flex flex-column testimonials">
-        <h3 className="colorText text-capitalize text-center text-monospace">
-          What People Say About Us
-        </h3>
+        <LightSpeed right delay={1300}>
+          <h3 className="colorText text-capitalize text-center text-monospace">
+            What People Say About Us
+          </h3>
+        </LightSpeed>
         {testimonials.map(single => (
           <Card
             className="mt-4"
