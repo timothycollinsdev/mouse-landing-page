@@ -2,6 +2,8 @@
 
 live link :- https://www.iamashad.tech/challange
 
+![ChatAPP in redux](/video/gif.gif)
+
 ## Technoloy used
 
 reactjs
