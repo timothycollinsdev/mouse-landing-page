@@ -1,0 +1,90 @@
+.Main {
+  height: 100vh;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  .text-content {
+    color: #000;
+    z-index: 1000;
+    position: relative;
+    h1 {
+      font-size: 3.4rem;
+      text-transform: uppercase;
+
+      font-family: "Montez", cursive;
+    }
+    h3 {
+      font-weight: lighter;
+      margin-bottom: 35px;
+      font-stretch: expanded;
+    }
+  }
+  .images {
+    background-image: linear-gradient(
+      103.3deg,
+      rgba(253, 109, 104, 1) 7.7%,
+      rgba(248, 150, 105, 1) 90.8%
+    );
+
+    -webkit-clip-path: circle(74.1% at 78% 35%);
+    clip-path: circle(74.1% at 78% 35%);
+    .image {
+      img {
+        margin: 25px;
+      }
+    }
+  }
+}
+.featuresCard {
+  .featureText {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+
+  .text {
+    font-size: 1.15rem;
+    background-color: $colorSecondary;
+    margin-top: -3px;
+    color: $colorPrimary;
+    padding-top: 80px;
+    clip-path: polygon(0 20%, 100% 0, 100% 80%, 0% 100%);
+  }
+  .card-footer {
+    margin-top: -25px;
+  }
+}
+
+.testimonials {
+  h3 {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+  }
+  .appName {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+  }
+
+  p {
+    color: $colorTertiary;
+  }
+  .Icon {
+    color: $colorAccent;
+  }
+}
+.whatAI {
+  .main {
+    margin: 15px;
+    padding-left: 25px;
+  }
+  h1 {
+    font-family: "Montez", cursive;
+  }
+  .text {
+    font-size: 1.4rem;
+    padding: 25px;
+    margin: 15px 5px;
+    color: $colorTertiary;
+    // background-color: $colorTertiary;
+  }
+}

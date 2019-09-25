@@ -1,0 +1,65 @@
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flexheader {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.btn-grad {
+  padding: 10px 25px;
+  border-radius: 15px;
+  outline: none;
+  border: none;
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    to left,
+    #fe8c00 0%,
+    #f83600 51%,
+    #fe8c00 100%
+  );
+  &:hover {
+    background-position: right center;
+  }
+}
+.colorText {
+  background-image: linear-gradient(
+    103.3deg,
+    rgba(253, 109, 104, 1) 7.7%,
+    rgba(248, 150, 105, 1) 90.8%
+  );
+  color: transparent;
+  background-clip: text;
+}
+.Carousel {
+  height: 50vh;
+}
+.carousel-item {
+  img {
+    height: 350px;
+    width: auto;
+  }
+}
+.carousel-item img {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 300px;
+  //   background
+}
+.carousel-inner {
+  width: 440px;
+}
+
+.carousel-item {
+  transition: transform 0.2s step-end;
+  transition-duration: 1ms;
+}
+.grid-3 {
+  display: grid;
+  grid-gap: 25px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
