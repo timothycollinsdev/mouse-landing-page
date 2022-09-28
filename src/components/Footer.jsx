@@ -68,7 +68,7 @@ export class Footer extends Component {
 								// color="red"
 								className='ml-2 mr-2'
 							/>
-							<span className='footerElement'>2020 Aamish and Zaid</span>
+							<span className='footerElement'>2020</span>
 						</Col>
 						<Col md='4' className='flex'>
 							<NavItem>
